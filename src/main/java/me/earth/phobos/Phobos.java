@@ -33,12 +33,12 @@ import me.earth.phobos.manager.ModuleManager;
 import org.apache.logging.log4j.Logger;
 import net.minecraftforge.fml.common.Mod;
 
-@Mod(modid = "earthhack", name = "3arthh4ck", version = "1.5.4")
+@Mod(modid = "Codhack", name = "Codhack", version = "1.0.0")
 public class Phobos
 {
     public static final String MODID = "earthhack";
-    public static final String MODNAME = "3arthh4ck";
-    public static final String MODVER = "1.5.4";
+    public static final String MODNAME = "Codhack";
+    public static final String MODVER = "1.0.0";
     public static final String NAME_UNICODE = "3\u1d00\u0280\u1d1b\u029c\u029c4\u1d04\u1d0b";
     public static final String PHOBOS_UNICODE = "\u1d18\u029c\u1d0f\u0299\u1d0f\ua731";
     public static final String CHAT_SUFFIX = " \u23d0 3\u1d00\u0280\u1d1b\u029c\u029c4\u1d04\u1d0b";
@@ -80,7 +80,7 @@ public class Phobos
     
     @Mod.EventHandler
     public void init(final FMLInitializationEvent event) {
-        Display.setTitle("3arthh4ck - v.1.5.4");
+        Display.setTitle("Codhack v1.0.0");
         load();
     }
     
