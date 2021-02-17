@@ -259,11 +259,11 @@ public class HUD extends Module
         final String grayString = this.grayNess.getValue() ? "§7" : "";
         switch (this.watermark.getValue()) {
             case PHOBOS: {
-                this.renderer.drawString("Phobos" + (this.modeVer.getValue() ? " v1.5.4" : ""), 2.0f, 2.0f, (this.rolling.getValue() && this.rainbow.getValue()) ? ((int)this.colorMap.get(2)) : this.color, true);
+                this.renderer.drawString("Codhack" + (this.modeVer.getValue() ? " v1.0.0" : ""), 2.0f, 2.0f, (this.rolling.getValue() && this.rainbow.getValue()) ? ((int)this.colorMap.get(2)) : this.color, true);
                 break;
             }
             case EARTH: {
-                this.renderer.drawString("3arthh4ck" + (this.modeVer.getValue() ? " v1.5.4" : ""), 2.0f, 2.0f, (this.rolling.getValue() && this.rainbow.getValue()) ? ((int)this.colorMap.get(2)) : this.color, true);
+                this.renderer.drawString("Codhack" + (this.modeVer.getValue() ? " v1.0.0" : ""), 2.0f, 2.0f, (this.rolling.getValue() && this.rainbow.getValue()) ? ((int)this.colorMap.get(2)) : this.color, true);
                 break;
             }
         }
@@ -507,7 +507,7 @@ public class HUD extends Module
                 break;
             }
             case LONG: {
-                text = text + "Welcome to Phobos.eu " + HUD.mc.player.getDisplayNameString() + " :^)";
+                text = text + "Welcome to Codhack " + HUD.mc.player.getDisplayNameString() + " :^)";
                 break;
             }
             case CUSTOM: {
