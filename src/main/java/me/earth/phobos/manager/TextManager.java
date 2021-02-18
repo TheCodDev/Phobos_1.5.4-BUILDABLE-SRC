@@ -22,7 +22,7 @@ public class TextManager extends Feature
     private boolean idling;
     
     public TextManager() {
-        this.customFont = new CustomFont(new Font("Verdana", 0, 17), true, false);
+        this.customFont = new CustomFont(new Font("Roboto", 0, 17), true, false);
         this.idleTimer = new Timer();
         this.updateResolution();
     }
