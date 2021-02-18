@@ -94,11 +94,11 @@ public class ChatModifier extends Module
             }
             switch (this.suffix.getValue()) {
                 case EARTH: {
-                    s += " \u23d0 3\u1d00\u0280\u1d1b\u029c\u029c4\u1d04\u1d0b";
+                    s += " \u23d0 Codhack";
                     break;
                 }
                 case PHOBOS: {
-                    s += " \u23d0 \u1d18\u029c\u1d0f\u0299\u1d0f\ua731";
+                    s += " \u23d0 Codhack";
                     break;
                 }
             }
